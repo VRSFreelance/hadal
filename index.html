@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>HadalBees Technologies | Digital Solutions & Technology Consulting</title>
+    <meta name="description" content="We craft fast, responsive websites, scalable web applications, and mobile apps — and help businesses grow through SEO and digital marketing." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                DEFAULT: '#001748', // Primary Navy (#001748)
+                light: '#052361',
+                dark: '#000c26',
+              },
+              accent: {
+                DEFAULT: '#E7BF88', // Primary Gold Solid
+                highlight: '#FFD695', // Highlight Gold
+                cream: '#FFEBCA',    // Cream Gold
+                hover: '#E2B96A',    // Hover Gold
+              },
+              neutralText: {
+                light: '#F4F4F4',
+                dark: '#1F1F1F',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+      }
+      .honeycomb-gradient {
+        background: linear-gradient(
+          to right,
+          #ffdd9d 0%,
+          #7e5b33 6%,
+          #a37e56 15%,
+          #ffdd9d 23%,
+          #fff2cd 38%,
+          #ffdd9d 49%,
+          #e7bf88 60%,
+          #7e5b33 68%,
+          #a37e56 74%,
+          #e7bf88 83%,
+          #fff2cd 92%,
+          #ffdd9d 100%
+        );
+      }
+      .honeycomb-gradient-text {
+        background: linear-gradient(
+          to right,
+          #ffdd9d 0%,
+          #7e5b33 6%,
+          #a37e56 15%,
+          #ffdd9d 23%,
+          #fff2cd 38%,
+          #ffdd9d 49%,
+          #e7bf88 60%,
+          #7e5b33 68%,
+          #a37e56 74%,
+          #e7bf88 83%,
+          #fff2cd 92%,
+          #ffdd9d 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .glass-effect {
+        background: rgba(0, 23, 72, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0, 23, 72, 0.1);
+      }
+      .dark .glass-effect {
+        background: rgba(255, 235, 202, 0.05);
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F4F4F4;
+      }
+      .dark ::-webkit-scrollbar-track {
+        background: #000c26;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #E7BF88;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #E2B96A;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white dark:bg-brand text-neutralText-dark dark:text-neutralText-light transition-colors duration-300 antialiased overflow-x-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
