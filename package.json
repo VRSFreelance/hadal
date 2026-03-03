@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist -r https://github.com/VRSFreelance/hadal.git"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
