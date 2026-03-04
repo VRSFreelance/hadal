@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
 
     emailjs
       .sendForm(
-        'service_ikikn3s', 
+        'service_tovtkjm', 
         'template_cchsme7', 
         formRef.current,
         '7VVirm8fwh10b6KQp'
@@ -97,7 +97,7 @@ const Contact: React.FC = () => {
                     Headquarters
                   </p>
                   <p className="text-2xl font-black text-brand dark:text-white">
-                    Chennai, Tamil Nadu, India
+                    No: 27, 3rd floor, Setu Complex, near Frontline Hospital, Chinthamani Bazaar, Trichy -620002
                   </p>
                 </div>
               </div>
